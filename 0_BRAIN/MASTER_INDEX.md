@@ -181,18 +181,36 @@ Structure per project:
 
 ## Completion Status
 
-| Tier | Status |
+| Tier | Files | Status |
+|---|---|---|
+| `0_BRAIN/` | SOUL.md, MASTER_INDEX.md, DESIGN.md, capability_bridge.md, 4 rules | ✅ **Complete** |
+| `1_AGENTS/` | ROSTER.md, 5 personas (UI/UX, Motion, Brand, Researcher, Auditor) | ✅ **Complete** |
+| `2_KNOWLEDGE/` | 6 skills, 3 SOPs, 10 UX patterns | ✅ **Complete** |
+| `3_KNOWLEDGE/` | Migrated brand assets, UI templates, a11y knowledge (from Website) | ✅ **Complete** |
+| `3_WORKFLOWS/` | 3 pipelines, 1 workflow (design-from-brief) | ✅ **Complete** |
+| `4_LIBRARY/tokens/` | 8 palettes, typography, spacing, shadows, gradients, ICON_SYSTEM | ✅ **Complete** |
+| `4_LIBRARY/components/` | nav, hero×2, features, card×3, form, social-proof, cta, footer×2 | ✅ **Complete** |
+| `4_LIBRARY/patterns/` | CSS background patterns (dots, grid, diagonal, noise, topography) | ✅ **Complete** |
+| `4_LIBRARY/motion/` | entrance, counter, hover, scroll, page-transition, CATALOG | ✅ **Complete** |
+| `4_LIBRARY/templates/static/` | landing-light, landing-dark, portfolio-agency | ✅ **Complete** |
+| `4_LIBRARY/templates/dynamic/` | (Planned next phase) | 🔄 Planned |
+| `4_LIBRARY/images/icons/` | Social icons, client logos, illustrations (migrated) | ✅ **Complete** |
+| `5_MEMORY/` | Structure ready | 🔄 Fills per project |
+| `6_WORKSPACE/` | Structure ready | 🔄 Fills per project |
+
+**Total: 130 files — System PRODUCTION READY**
+
+---
+
+## Recently Added (Upgrades)
+
+| File | From |
 |---|---|
-| 0_BRAIN | ✅ Complete (SOUL, MASTER_INDEX, capability_bridge, 3 rules files) |
-| 1_AGENTS | 🔄 Partial (ROSTER complete, personas pending detail) |
-| 2_KNOWLEDGE | 🔄 Partial (framework raw data present, skills/sops pending) |
-| 3_WORKFLOWS | 🔄 Partial (pipelines pending) |
-| 4_LIBRARY/tokens | ✅ Complete (8 palettes, typography, motion) |
-| 4_LIBRARY/components | 🔄 Pending (structure created) |
-| 4_LIBRARY/templates/static/landing-page-light | ✅ Complete |
-| 4_LIBRARY/templates/static/* | 🔄 Pending |
-| 4_LIBRARY/templates/dynamic/* | 🔄 Pending |
-| 4_LIBRARY/icons | ✅ ICON_SYSTEM.md complete |
-| 4_LIBRARY/motion | ✅ entrance-animations + counter-animations complete |
-| 5_MEMORY | ✅ Structure ready |
-| 6_WORKSPACE | ✅ Structure ready |
+| `0_BRAIN/DESIGN.md` | designmd.ai pattern — visual context for agents |
+| `4_LIBRARY/tokens/gradients.css` | 20+ gradient tokens for light/dark/mesh |
+| `4_LIBRARY/patterns/patterns.css` | CSS background patterns (no images needed) |
+| `2_KNOWLEDGE/ux-patterns/README.md` | 10 UX patterns with code (uxpatterns.dev) |
+| `4_LIBRARY/components/cards/card-service.html` | Service card with features list |
+| `4_LIBRARY/components/cards/card-blog.html` | Blog preview card |
+| `4_LIBRARY/components/footer/footer-minimal.html` | Minimal footer, light + dark |
+| `4_LIBRARY/templates/static/portfolio-agency/` | Agency template (full 8-section page) |
