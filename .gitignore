@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+.env
+.env.local
+
+# Memory (private outputs)
+4_MEMORY/audits/
+4_MEMORY/exports/
+4_MEMORY/projects/
+
+# Build artifacts
+*.tsbuildinfo
