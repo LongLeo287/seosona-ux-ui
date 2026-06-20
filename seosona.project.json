@@ -1,0 +1,10 @@
+{
+  "name": "seosona-uxui",
+  "version": "1.0.0",
+  "description": "SEOSONA UX/UI Design System and Planning Artifacts",
+  "seosona": {
+    "type": "design_system",
+    "memory_namespace": "seosona-uxui",
+    "autonomy_level": "project_edit"
+  }
+}
